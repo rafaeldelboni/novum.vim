@@ -47,47 +47,48 @@ endif
 " :)
 " colors (:
 
-call s:setColor('fg'          , 0, [251])
-call s:setColor('bg'          , 0, [235])
-call s:setColor('faintbg'     , 0, [236])
-call s:setColor('lightbg'     , 0, [238])
-call s:setColor('lighterbg'   , 0, [240])
-call s:setColor('uibg'        , 0, [241])
-call s:setColor('uibgnc'      , 0, [239])
-call s:setColor('uifg'        , 0, [255])
-call s:setColor('uifgnc'      , 0, [248])
-call s:setColor('comment'     , 0, [243, 137, 174, 173, 137, 101])
-call s:setColor('darkfg'      , 0, [247])
-call s:setColor('darkerfg'    , 0, [240])
-call s:setColor('mutedblue'   , 0, [67])
-call s:setColor('darkblue'    , 1, [25, 31, 74])
-call s:setColor('blue'        , 1, [31, 74, 81])
-call s:setColor('lightblue'   , 1, [74, 81, 87])
-call s:setColor('mutedgreen'  , 0, [108])
-call s:setColor('darkgreen'   , 1, [22, 29, 36])
-call s:setColor('green'       , 1, [29, 36, 42])
-call s:setColor('lightgreen'  , 1, [36, 42, 48])
-call s:setColor('mutedcyan'   , 0, [66])
-call s:setColor('darkcyan'    , 1, [23, 30, 73])
-call s:setColor('cyan'        , 1, [30, 73, 44])
-call s:setColor('lightcyan'   , 1, [73, 80, 116])
-call s:setColor('darkred'     , 0, [131, 167])
-call s:setColor('red'         , 0, [167, 203])
-call s:setColor('lightred'    , 0, [203, 211])
-call s:setColor('darkpink'    , 0, [133, 169])
-call s:setColor('pink'        , 0, [169, 205])
-call s:setColor('lightpink'   , 0, [205, 219])
-call s:setColor('mutedorange' , 0, [174])
-call s:setColor('darkorange'  , 0, [166])
-call s:setColor('orange'      , 0, [209])
-call s:setColor('lightorange' , 0, [216])
-call s:setColor('mutedyellow' , 0, [180])
-call s:setColor('darkyellow'  , 1, [94, 136, 179])
-call s:setColor('yellow'      , 1, [136, 179, 222])
-call s:setColor('lightyellow' , 1, [179, 222, 228])
-call s:setColor('mutedpurple' , 0, [182])
-call s:setColor('purple'      , 0, [176])
-call s:setColor('darkpurple'  , 0, [96])
+call s:setColor('fg'           , 0, [250])
+call s:setColor('bg'           , 0, [234])
+call s:setColor('darkbg'       , 0, [235])
+call s:setColor('faintbg'      , 0, [236])
+call s:setColor('lightbg'      , 0, [238])
+call s:setColor('lighterbg'    , 0, [240])
+call s:setColor('uibg'         , 0, [241])
+call s:setColor('uibgnc'       , 0, [239])
+call s:setColor('uifg'         , 0, [255])
+call s:setColor('uifgnc'       , 0, [248])
+call s:setColor('comment'      , 0, [243, 137, 174, 173, 137, 101])
+call s:setColor('darkfg'       , 0, [247])
+call s:setColor('darkerfg'     , 0, [240])
+call s:setColor('mutedblue'    , 0, [67])
+call s:setColor('darkblue'     , 1, [25, 31, 74])
+call s:setColor('blue'         , 1, [31, 74, 81])
+call s:setColor('lightblue'    , 1, [74, 81, 87])
+call s:setColor('mutedgreen'   , 0, [108])
+call s:setColor('darkgreen'    , 1, [22, 29, 36])
+call s:setColor('green'        , 1, [29, 36, 42])
+call s:setColor('lightgreen'   , 1, [36, 42, 48])
+call s:setColor('mutedcyan'    , 0, [66])
+call s:setColor('darkcyan'     , 1, [23, 30, 73])
+call s:setColor('cyan'         , 1, [30, 73, 44])
+call s:setColor('lightcyan'    , 1, [73, 80, 116])
+call s:setColor('darkred'      , 0, [131, 167])
+call s:setColor('red'          , 0, [167, 203])
+call s:setColor('lightred'     , 0, [203, 211])
+call s:setColor('darkpink'     , 0, [133, 169])
+call s:setColor('pink'         , 0, [169, 205])
+call s:setColor('lightpink'    , 0, [205, 219])
+call s:setColor('mutedorange'  , 0, [174])
+call s:setColor('darkorange'   , 0, [166])
+call s:setColor('orange'       , 0, [209])
+call s:setColor('lightorange'  , 0, [216])
+call s:setColor('mutedyellow'  , 0, [180])
+call s:setColor('darkyellow'   , 1, [94, 136, 179])
+call s:setColor('yellow'       , 1, [136, 179, 222])
+call s:setColor('lightyellow'  , 1, [179, 222, 228])
+call s:setColor('mutedpurple'  , 0, [182])
+call s:setColor('purple'       , 0, [176])
+call s:setColor('darkpurple'   , 0, [96])
 
 " :)
 
@@ -96,7 +97,7 @@ call s:setColor('darkpurple'  , 0, [96])
 
 " Group                 FG           BG           STYLE
 " --------------------- ------------ ------------ -------------------------------
-H ColorColumn           NONE         faintbg      NONE
+H ColorColumn           NONE         darkbg       NONE
 H Conceal               darkerfg     NONE         NONE
 H Cursor                bg           fg           NONE
 H lCursor               bg           fg           NONE
@@ -110,7 +111,7 @@ H DiffDelete            red          NONE         NONE
 H DiffText              bg           darkorange   NONE
 H EndOfBuffer           comment      NONE         NONE
 H ErrorMsg              red          NONE         NONE
-H VertSplit             comment      uibg         NONE
+H VertSplit             darkbg       bg           NONE
 H Folded                mutedcyan    faintbg      NONE
 H FoldColumn            comment      NONE         NONE
 H SignColumn            comment      NONE         NONE
@@ -120,7 +121,7 @@ H CursorLineNr          green        NONE         NONE
 H MatchParen            bg           mutedcyan    NONE
 H ModeMsg               orange       NONE         NONE
 H MoreMsg               orange       NONE         NONE
-H NonText               comment      NONE         NONE
+H NonText               faintbg      NONE         NONE
 H Normal                fg           bg           NONE
 H Pmenu                 uifg         uibg         NONE
 H PmenuSel              uibg         uifg         NONE
@@ -128,7 +129,7 @@ H PmenuSbar             fg           lightbg      NONE
 H PmenuThumb            bg           darkgreen    NONE
 H Question              orange       NONE         NONE
 H QuickFixLine          NONE         faintbg      bold,underline
-H Search                lightyellow  NONE         underline
+H Search                darkpurple   NONE         underline
 H SpecialKey            darkerfg     NONE         NONE
 H SpellBad              red          NONE         NONE
 H SpellCap              yellow       NONE         NONE
@@ -156,38 +157,38 @@ H WildMenu              bg           green        NONE
 " --------------------- ------------ ------------ -------------------------------
 H Comment               comment      NONE         NONE
 H Constant              blue         NONE         NONE
-H String                green        NONE         NONE
+H String                darkcyan     NONE         NONE
 H Character             green        NONE         NONE
-H Number                purple       NONE         NONE
-H Boolean               purple       NONE         NONE
-H Float                 purple       NONE         NONE
-H Identifier            blue         NONE         NONE
-H Function              NONE         NONE         NONE
+H Number                mutedcyan    NONE         NONE
+H Boolean               mutedcyan    NONE         NONE
+H Float                 mutedcyan    NONE         NONE
+H Identifier            green        NONE         NONE
+H Function              green        NONE         NONE
 H Statement             blue         NONE         NONE
 H Conditional           blue         NONE         NONE
 H Repeat                blue         NONE         NONE
 H Label                 blue         NONE         NONE
 H Operator              darkfg       NONE         NONE
-H Keyword               darkfg       NONE         NONE
+H Keyword               uifg         NONE         NONE
 H Exception             blue         NONE         NONE
 H PreProc               blue         NONE         NONE
 H Include               blue         NONE         NONE
-H Define                blue         NONE         NONE
-H Macro                 blue         NONE         NONE
-H PreCondit             blue         NONE         NONE
-H Type                  blue         NONE         NONE
+H Define                mutedblue    NONE         NONE
+H Macro                 mutedblue    NONE         NONE
+H PreCondit             mutedblue    NONE         NONE
+H Type                  mutedblue    NONE         NONE
 H StorageClass          blue         NONE         NONE
 H Structure             blue         NONE         NONE
 H Typedef               blue         NONE         NONE
-H Special               mutedyellow  NONE         NONE
-H SpecialChar           mutedyellow  NONE         NONE
+H Special               lightgreen   NONE         NONE
+H SpecialChar           lightgreen   NONE         NONE
 H Tag                   blue         NONE         NONE
 H Delimiter             darkfg       NONE         NONE
 H SpecialComment        blue         NONE         NONE
 H Debug                 orange       NONE         NONE
 H Underlined            NONE         NONE         underline
 H Ignore                darkerfg     NONE         NONE
-H Error                 red          NONE         NONE
+H Error                 darkred      NONE         NONE
 H Todo                  mutedyellow  NONE         NONE
 
 " :)
@@ -305,5 +306,23 @@ H markdownH6            mutedyellow  NONE         NONE
 H markdownHeadingDelimiter mutedyellow NONE         NONE
 
 " :)
+
+" :)
+" Syntax: |clojure| (:
+" ~~~~~~
+
+" Group                 FG           BG           STYLE
+" --------------------- ------------ ------------ -------------------------------
+H clojureNumber         mutedcyan    NONE         NONE
+H clojureKeyword        cyan         NONE         NONE
+H clojureFunc           uifg         NONE         bold
+H clojureDefine         mutedblue    NONE         NONE
+H clojureBoolean        mutedcyan    NONE         NONE
+H clojureSpecial        uifg         NONE         bold
+H clojureMacro          mutedblue    NONE         NONE
+H clojureConstant       blue         NONE         NONE
+H clojureCond           uifg         NONE         bold
+H clojureString         darkcyan     NONE         NONE
+H clojureParen          uifg         NONE         bold
 
 " vim: cole=2 cocu=cv fdm=marker fmr=\(\:,\:\) fdl=0 et:
