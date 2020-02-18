@@ -1,11 +1,6 @@
 # Novum Scheme for Vim
 
-Vim color scheme based on [Novum](https://github.com/dylnmc/novum.vim).
-
-## A Couple of Notes
-
-- I removed and added colors for my personal experience
-- Terminal colors are much different and simplified
+A dark colorscheme based on [Novum](https://github.com/dylnmc/novum.vim) with a little monochrome syntax highlight and sprinkles of green and blue. dark colorscheme with a little monochrome syntax highlight and sprinkles of green and blue.
 
 ## Installation
 Using [vim-plug](https://github.com/junegunn/vim-plug):
