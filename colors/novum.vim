@@ -57,7 +57,7 @@ call s:setColor('uibg'         , 0, [241])
 call s:setColor('uibgnc'       , 0, [239])
 call s:setColor('uifg'         , 0, [255])
 call s:setColor('uifgnc'       , 0, [248])
-call s:setColor('comment'      , 0, [243, 137, 174, 173, 137, 101])
+call s:setColor('comment'      , 0, [243])
 call s:setColor('darkfg'       , 0, [247])
 call s:setColor('darkerfg'     , 0, [240])
 call s:setColor('mutedblue'    , 0, [67])
@@ -123,9 +123,9 @@ H ModeMsg               orange       NONE         NONE
 H MoreMsg               orange       NONE         NONE
 H NonText               faintbg      NONE         NONE
 H Normal                fg           bg           NONE
-H Pmenu                 uifg         uibg         NONE
+H Pmenu                 fg           faintbg      NONE
 H PmenuSel              uibg         uifg         NONE
-H PmenuSbar             fg           lightbg      NONE
+H PmenuSbar             uifg         uibg         NONE
 H PmenuThumb            bg           darkgreen    NONE
 H Question              orange       NONE         NONE
 H QuickFixLine          NONE         faintbg      bold,underline
